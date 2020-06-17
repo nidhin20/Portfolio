@@ -1,0 +1,7 @@
+.footer , *{
+    background-color:#62adfc ;
+    color: white;
+}
+.footer .footer-copyright ,.footer-copyright a{
+    background-color: #2780E3 !important;
+}

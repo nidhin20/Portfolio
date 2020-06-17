@@ -1,0 +1,91 @@
+
+  
+  .education-pic{
+      background: url(/assets/Images/development-skill2.png);
+      height: 100px;
+      width: 100px;
+      display: inline-block;
+      margin: 5px;
+      margin-right: 15px;
+      background-position: 50% 50%;
+      background-size: cover;
+  }
+  
+  
+  .education-teaser{
+      /* align-items: center;
+      text-align: left; */
+  }
+  
+  
+  .frontend{
+    position: relative;
+    margin:10px;
+    /* min-height: 200px;  */
+   /* min-width: 250px; */
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    box-shadow: 0 0 2rem 2px #72767d !important;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+}
+.frontend h4{
+    font-weight: 500;
+}
+.row {
+    width: 100%;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    font-size: x-large;
+    color: #2780E3 ;
+    padding-right: 2px;
+  }
+  .paddingbottom{
+      padding-bottom: 100px;
+  }
+  .skill-head-pic {
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid;
+    box-shadow: 1px 1px 3px 1px #0862e8;
+    top: -45px;
+    width: 70px;
+    height: 70px;
+    left:calc(50% - 35px);
+    background-color: white !important;
+    background: url(/assets/Images/frontend.png);
+    margin: 5px;
+    margin-right: 15px;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
+  .others-pic{
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid;
+    box-shadow: 1px 1px 3px 1px #0862e8;
+    top: -45px;
+    width: 70px;
+    height: 70px;
+    left:calc(50% - 35px);
+    background-color: white !important;
+    background: url(/assets/Images/othertools.png);
+    margin: 5px;
+    margin-right: 15px;
+    background-position: 50% 50%;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
