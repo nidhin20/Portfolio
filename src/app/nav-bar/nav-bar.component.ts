@@ -19,7 +19,7 @@ export class NavBarComponent implements OnInit {
     // })
 
     const element = document.querySelector(selector);
-    element ? element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"}): null;
+    element ? element.scrollIntoView(true): null;
   }
   ngOnInit(): void {
   }
