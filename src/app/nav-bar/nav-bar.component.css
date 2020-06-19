@@ -15,6 +15,33 @@
     background-size: cover;
     
 }
+.linkedin{
+    background-image: url(/assets/Images/linkedin.png);
+}
+.github{
+    background-image: url(/assets/Images/github.png);
+}
+.social-link-top{
+    position: absolute;
+    top: 15px;
+    right: 30%;
+}
+.social-link{
+    background-color: #2780E3 ;
+    background-size: 60%;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    margin-right: 2px;
+}
+.social-link-top a:hover{
+    background-color: #1164c1 ;
+    transition: 0.5s;
+    cursor: pointer;
+}
 .nav-item a{
     cursor: pointer;
 }

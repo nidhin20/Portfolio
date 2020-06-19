@@ -11,6 +11,9 @@ import { HeaderIntroComponent } from './header-intro/header-intro.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProjectIntroComponent } from './project-intro/project-intro.component';
+import { BlogIntroComponent } from './blog-intro/blog-intro.component';
+import { BlogCardComponent } from './blog-card/blog-card.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { FooterComponent } from './footer/footer.component';
     EducationComponent,
     SkillsComponent,
     FooterComponent,
+    ProjectIntroComponent,
+    BlogIntroComponent,
+    BlogCardComponent,
   ],
   imports: [
     BrowserModule,
